@@ -1,0 +1,60 @@
+.planScreen{
+    max-width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.plansScreen__premiumPlan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.plansScreen__standardPlan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.plansScreen__basicPlan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.plansScreen__Button{
+    right: 20px;
+    cursor: pointer;
+    align-content:space-between;
+    color: white;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 6px;
+}
+
+.plansScreen__Button:hover{
+    color: #000;
+    background-color: rgb(163, 52, 52);
+    /* animation-timing-function: 2s all ; */
+}
